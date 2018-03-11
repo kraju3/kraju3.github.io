@@ -1,8 +1,8 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
+    "title": "Resume",
+    "name": "startbootstrap-resume",
     "version": "4.0.0",
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
         "css",
         "sass",
@@ -11,9 +11,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+    "homepage": "https://startbootstrap.com/template-overviews/resume",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,11 +23,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
-        "font-awesome": "4.7.0",
+        "devicons": "^1.8.0",
         "jquery": "3.3.1",
         "simple-line-icons": "^2.4.1"
     },
@@ -37,6 +37,7 @@
         "gulp-clean-css": "3.9.2",
         "gulp-header": "2.0.1",
         "gulp-rename": "^1.2.2",
-        "gulp-sass": "^3.1.0"
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
     }
 }
